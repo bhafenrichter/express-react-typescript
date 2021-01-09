@@ -8,7 +8,10 @@
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "./dist/",
-    "skipLibCheck": true
+    "lib": [
+      "ES2017",
+      "DOM"
+    ]
   },
   "exclude": [
     "./src/server "
